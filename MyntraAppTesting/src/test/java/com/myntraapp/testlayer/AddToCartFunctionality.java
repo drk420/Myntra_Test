@@ -45,9 +45,10 @@ public class AddToCartFunctionality extends TestBase{
 		Thread.sleep(5000);
 		String Actual_Result = buypage_obj.getcurrenturlofpage();
 		Assert.assertEquals(Actual_Result,Expected_Result);
-		logger.info(Actual_Result);
-		
-		
+	logger.info(Actual_Result);
+	logger.info(Actual_Result);
+	logger.info(Actual_Result);
+
 	}
 	
 	
